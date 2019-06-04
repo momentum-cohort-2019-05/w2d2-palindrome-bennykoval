@@ -8,8 +8,6 @@ def return_backwards(x):
 
 user_sentence_backwards = return_backwards(user_sentence)
 
-print(user_sentence_backwards)
-
 for letter in user_sentence.lower():
     if letter in all_letters and letter not in found_letters:
         found_letters.append(letter)
@@ -20,6 +18,6 @@ for letter in user_sentence_backwards.lower():
 
 
 if found_letters == found_letters_backwards:
-    print("is a palindrome")
+    print((user_sentence), " is a palindrome")
 else:
-    print("is not a palindrome")
+    print((user_sentence), " is not a palindrome")
