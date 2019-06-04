@@ -19,7 +19,10 @@ for letter in user_sentence_backwards.lower():
         found_letters_backwards.append(letter)
 
 
-if found_letters =
+if found_letters == found_letters_backwards:
+    print("is a palindrome")
+else:
+    print("is not a palindrome")
 #if user_sentence is user_sentence[::-1]:
     #print("is a palindrome")
 #else:
