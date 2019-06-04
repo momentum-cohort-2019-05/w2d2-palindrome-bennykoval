@@ -3,7 +3,8 @@ all_letters = "abcdefghijklmnopqrstuvwxyz"
 found_letters = []
 found_letters_backwards = []
 
-def return_backwards(x): 
+def return_backwards(x):
+  """Return text user inputs in backwards form, store in new variable"""   
   return x[::-1]
 
 user_sentence_backwards = return_backwards(user_sentence)
