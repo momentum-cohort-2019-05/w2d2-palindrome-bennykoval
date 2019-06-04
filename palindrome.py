@@ -5,6 +5,8 @@ found_letters = []
 def return_backwards(user_sentence): 
   return user_sentence[::-1]
 
+user_sentence_backwards = return_backwards(user_sentence)
+
 print(user_sentence)
 
 #for letter in user_sentence.lower():
