@@ -4,7 +4,7 @@ found_letters = []
 found_letters_backwards = []
 
 def return_backwards(x):
-  """Return text user inputs in backwards form, store in new variable"""   
+  """Return text user inputs in backwards form, store return in new variable"""   
   return x[::-1]
 
 user_sentence_backwards = return_backwards(user_sentence)
