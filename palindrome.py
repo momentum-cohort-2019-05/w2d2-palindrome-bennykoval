@@ -18,6 +18,6 @@ for letter in user_sentence_backwards.lower():
 
 
 if found_letters == found_letters_backwards:
-    print((user_sentence), " is a palindrome")
+    print((user_sentence), "is a palindrome")
 else:
-    print((user_sentence), " is not a palindrome")
+    print((user_sentence), "is not a palindrome")
